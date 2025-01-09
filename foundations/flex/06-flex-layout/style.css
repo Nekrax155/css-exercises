@@ -41,8 +41,7 @@ a {
   font-size: small;
 }
 
-.header {
-  
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -50,17 +49,9 @@ a {
 
 .footer {
   background-color: #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
 }
 
-.left-links {
-  display: flex;
-  gap: 16px;
-}
-
-.right-links {
+.left-links, .right-links {
   display: flex;
   gap: 16px;
 }
